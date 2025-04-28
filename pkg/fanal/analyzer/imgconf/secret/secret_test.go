@@ -25,7 +25,7 @@ func Test_secretAnalyzer_Analyze(t *testing.T) {
 				Config: v1.Config{
 					Env: []string{
 						"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
-						"secret=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", // dummy token ghp_aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, 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
+						"secret=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", // REAL TOKEN
 					},
 				},
 			},
